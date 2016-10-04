@@ -119,6 +119,26 @@ else if dir = 2
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Set movement</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -134,14 +154,40 @@ else if dir = 2
           <argument>
             <kind>1</kind>
             <string>
-if dir = 1 {
-motion_set(0, movespeed);  // move right at .3 speed
+if dir = 1 
+{
+    motion_set(0, movespeed);  // move right 
 
+}
+
+if dir = 2 
+{
+    motion_set(180, movespeed);    // move left 
+}    
+    
+if (vsp &lt; 10) vsp += grav;
+//Horizontal Collision so you don't fly through the walls
+if (place_meeting(x+hsp,y,obj_collision))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_collision))
+    {
+        x += sign(hsp);
     }
+    hsp = 0;   
+}
+           
+x += hsp;
 
-if dir = 2 {
-motion_set(180, movespeed);    // move left at .3 speed
-    }    
+//Vertical Collision so you don't fly through the other walls
+if (place_meeting(x,y+vsp,obj_collision))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_collision))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;   
+}
+y += vsp;
 </string>
           </argument>
         </arguments>
