@@ -96,6 +96,27 @@ if (place_meeting(x,y+vsp,obj_collision))
 }
 
 y += vsp;
+
+
+
+
+
+// Control Sprites 
+//changes direction
+if (move!= 0) image_xscale = move;
+//check for ground. if you move, you move. if not, you idle
+if (place_meeting(x,y+1,obj_collision))
+    {
+    //moving animation
+        if (move!= 0) sprite_index = spr_mimic_move; 
+        else sprite_index = spr_mimic;
+        image_speed = 0.25;
+        
+    }
+else
+{
+    if (vsp &lt; 0) sprite_index = spr_mimic_jump; else sprite_index = spr_mimic;
+}  
 </string>
           </argument>
         </arguments>
