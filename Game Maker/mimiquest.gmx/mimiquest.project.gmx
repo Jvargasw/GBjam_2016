@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\PlayerJump</sound>
+    <sound>sound\EnemyHit</sound>
+    <sound>sound\MenuButtonHover</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="mimic">
       <sprite>sprites\spr_mimic</sprite>
