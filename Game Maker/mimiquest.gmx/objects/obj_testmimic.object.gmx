@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>//Initialize Variables
-grav = 0.2;
+grav = 0.3;
 hsp = 0;
 vsp = 0;
-jumpspeed = 7;
-movespeed = 4;
+jumpspeed = 5;
+movespeed = 3;
 </string>
           </argument>
         </arguments>
@@ -57,6 +57,7 @@ movespeed = 4;
 key_right = keyboard_check (vk_right);
 key_left = -keyboard_check (vk_left);
 key_jump = keyboard_check_pressed (vk_up);
+key_jump_held = keyboard_check (vk_up);
 
 //React to Input
 
@@ -69,6 +70,8 @@ if (place_meeting(x,y+1,obj_collision))
     {
     vsp = key_jump * -jumpspeed
     }
+//variable jumping    
+if (vsp &lt; 0) &amp;&amp; (!key_jump_held) vsp = max(vsp,-jumpspeed/4)
  
 //Horizontal Collision so you don't fly through the walls
 if (place_meeting(x+hsp,y,obj_collision))
