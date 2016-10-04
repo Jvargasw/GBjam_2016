@@ -43,6 +43,9 @@
       <sprite>sprites\spr_t1s_side4_2</sprite>
     </sprites>
     <sprite>sprites\spr_collision</sprite>
+    <sprites name="Enemies">
+      <sprite>sprites\enemyMimctest</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -79,6 +82,9 @@
       <object>objects\obj_t1s_side4_2</object>
     </objects>
     <object>objects\obj_collision</object>
+    <objects name="Enemies">
+      <object>objects\Enemy_walker_test</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\GMLtesting_room</room>
