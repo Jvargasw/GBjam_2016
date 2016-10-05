@@ -96,6 +96,7 @@
     <object>objects\obj_collision</object>
     <objects name="Enemies">
       <object>objects\Enemy_walker_test</object>
+      <object>objects\enemy_template</object>
     </objects>
     <objects name="Environment stuff">
       <object>objects\obj_trees1</object>
