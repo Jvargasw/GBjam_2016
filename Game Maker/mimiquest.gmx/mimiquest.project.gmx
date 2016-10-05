@@ -14,6 +14,8 @@
       <sprite>sprites\spr_mimic</sprite>
       <sprite>sprites\spr_mimic_move</sprite>
       <sprite>sprites\spr_mimic_jump</sprite>
+      <sprite>sprites\spr_mimic_atk</sprite>
+      <sprite>sprites\spr_atk_pellet</sprite>
     </sprites>
     <sprites name="Tileset 1 [16x16]">
       <sprite>sprites\spr_t1s_brick</sprite>
