@@ -56,10 +56,12 @@
       <sprite>sprites\spr_filler_light</sprite>
       <sprite>sprites\spr_leaf1</sprite>
     </sprites>
+    <sprite>sprites\coin_placeholder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\Coin</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
       <object>objects\obj_testmimic</object>
