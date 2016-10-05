@@ -54,6 +54,7 @@
       <sprite>sprites\spr_filler_tan</sprite>
       <sprite>sprites\spr_filler_dark</sprite>
       <sprite>sprites\spr_filler_light</sprite>
+      <sprite>sprites\spr_leaf1</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -100,6 +101,7 @@
       <object>objects\obj_filler_tan</object>
       <object>objects\obj_filler_dark</object>
       <object>objects\obj_filler_light</object>
+      <object>objects\obj_leaves</object>
     </objects>
   </objects>
   <rooms name="rooms">
