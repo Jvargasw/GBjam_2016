@@ -331,6 +331,7 @@
     <instance objName="Coin" x="160" y="112" name="inst_012237DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Coin" x="80" y="128" name="inst_EDC93B85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Coin" x="272" y="112" name="inst_61D725EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_walker_test" x="176" y="96" name="inst_17ED1E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
