@@ -26,9 +26,13 @@
       <sprite>sprites\spr_t1s_brick1_3</sprite>
       <sprite>sprites\spr_t1s_brick1_4</sprite>
       <sprite>sprites\spr_t1s_corner1</sprite>
+      <sprite>sprites\spr_t1s_corner1_1</sprite>
       <sprite>sprites\spr_t1s_corner2</sprite>
+      <sprite>sprites\spr_t1s_corner2_1</sprite>
       <sprite>sprites\spr_t1s_corner3</sprite>
+      <sprite>sprites\spr_t1s_corner3_1</sprite>
       <sprite>sprites\spr_t1s_corner4</sprite>
+      <sprite>sprites\spr_t1s_corner4_1</sprite>
       <sprite>sprites\spr_t1s_ext1</sprite>
       <sprite>sprites\spr_t1s_ext2</sprite>
       <sprite>sprites\spr_t1s_ext3</sprite>
@@ -38,7 +42,11 @@
       <sprite>sprites\spr_t1s_inv3</sprite>
       <sprite>sprites\spr_t1s_inv4</sprite>
       <sprite>sprites\spr_t1s_side1_1</sprite>
+      <sprite>sprites\spr_t1s_side1_1_1</sprite>
+      <sprite>sprites\spr_t1s_side1_1_2</sprite>
       <sprite>sprites\spr_t1s_side1_2</sprite>
+      <sprite>sprites\spr_t1s_side1_2_1</sprite>
+      <sprite>sprites\spr_t1s_side1_2_2</sprite>
       <sprite>sprites\spr_t1s_side2_2</sprite>
       <sprite>sprites\spr_t1s_side2_1</sprite>
       <sprite>sprites\spr_t1s_side3_1</sprite>
@@ -76,9 +84,13 @@
       <object>objects\obj_t1s_brick1_3</object>
       <object>objects\obj_t1s_brick1_4</object>
       <object>objects\obj_t1s_corner1</object>
+      <object>objects\obj_t1s_corner1_1</object>
       <object>objects\obj_t1s_corner2</object>
+      <object>objects\obj_t1s_corner2_1</object>
       <object>objects\obj_t1s_corner3</object>
+      <object>objects\obj_t1s_corner3_1</object>
       <object>objects\obj_t1s_corner4</object>
+      <object>objects\obj_t1s_corner4_1</object>
       <object>objects\obj_t1s_ext1</object>
       <object>objects\obj_t1s_ext2</object>
       <object>objects\obj_t1s_ext3</object>
@@ -88,7 +100,11 @@
       <object>objects\obj_t1s_inv3</object>
       <object>objects\obj_t1s_inv4</object>
       <object>objects\obj_t1s_side1_1</object>
+      <object>objects\obj_t1s_side1_1_1</object>
+      <object>objects\obj_t1s_side1_1_2</object>
       <object>objects\obj_t1s_side1_2</object>
+      <object>objects\obj_t1s_side1_2_1</object>
+      <object>objects\obj_t1s_side1_2_2</object>
       <object>objects\obj_t1s_side2_2</object>
       <object>objects\obj_t1s_side2_1</object>
       <object>objects\obj_t1s_side3_1</object>
@@ -107,8 +123,10 @@
       <object>objects\obj_filler_tan</object>
       <object>objects\obj_filler_dark</object>
       <object>objects\obj_filler_light</object>
-      <object>objects\obj_leaf_pt1</object>
-      <object>objects\obj_leaf_pt2</object>
+      <objects name="Particle Effects">
+        <object>objects\part_leaf_1</object>
+        <object>objects\part_leaf_2</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
