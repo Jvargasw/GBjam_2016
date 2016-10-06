@@ -55,6 +55,7 @@
       <sprite>sprites\spr_filler_dark</sprite>
       <sprite>sprites\spr_filler_light</sprite>
       <sprite>sprites\spr_leaf1</sprite>
+      <sprite>sprites\spr_leaf2</sprite>
     </sprites>
     <sprite>sprites\coin_placeholder</sprite>
   </sprites>
@@ -104,7 +105,8 @@
       <object>objects\obj_filler_tan</object>
       <object>objects\obj_filler_dark</object>
       <object>objects\obj_filler_light</object>
-      <object>objects\obj_leaves</object>
+      <object>objects\obj_leaf_pt1</object>
+      <object>objects\obj_leaf_pt2</object>
     </objects>
   </objects>
   <rooms name="rooms">
