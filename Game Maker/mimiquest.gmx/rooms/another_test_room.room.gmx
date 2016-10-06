@@ -325,7 +325,7 @@
     <instance objName="obj_t1s_side1_1_1" x="200" y="168" name="inst_E468303D" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side1_2_1" x="152" y="168" name="inst_3044B459" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side1_2_2" x="408" y="168" name="inst_501B0C7A" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_1_2" x="312" y="153" name="inst_CA9966E9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_1_2" x="312" y="152" name="inst_CA9966E9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_corner1_1" x="392" y="152" name="inst_DE690574" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

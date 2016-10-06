@@ -134,6 +134,8 @@ if (place_meeting(x,y+vsp,obj_collision))
     vsp = 0;   
 }
 y += vsp;
+
+
 </string>
           </argument>
         </arguments>

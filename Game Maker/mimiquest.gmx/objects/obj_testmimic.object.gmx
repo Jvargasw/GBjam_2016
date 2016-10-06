@@ -35,8 +35,7 @@ movespeed = 3;
 coins = 10;
 //immunity: if 1, then the player has been hit and is temporarily immune
 immunity = 0;
-//knockback
-hit = 0;
+
 </string>
           </argument>
         </arguments>
