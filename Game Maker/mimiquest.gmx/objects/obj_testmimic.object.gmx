@@ -139,20 +139,30 @@ if (place_meeting(x,y+1,obj_collision))
     {
     //moving animation
     //FOR DAMAGED
-    //if (immunity = 0){
+    if (immunity = 0){
         if (move!= 0) sprite_index = spr_mimic_move; 
         else sprite_index = spr_mimic;
         image_speed = 0.25;
-    //}
-    //else { same as above, but insert damaged version of sprites }
-
-        
     }
+    else { 
+     if (move!= 0) sprite_index = spr_mimic_dmg; 
+        else sprite_index = spr_mimic_dmg;
+        image_speed = 0.25;
+        }    
+    }
+    
 else
 {
-    //FOR DAMAGED, do the same if statement as above
-    if (vsp &lt; 0) sprite_index = spr_mimic_jump; else sprite_index = spr_mimic;
-}  
+    //jumping animation
+    if(immunity = 0){
+    if (vsp &lt; 0) sprite_index = spr_mimic_jump; 
+    else sprite_index = spr_mimic;
+    }
+    else{  
+    if (vsp &lt; 0) sprite_index = spr_mimic_dmg;
+     else sprite_index = spr_mimic_dmg;
+     }
+    }  
 
 
 //Drawing the score (can be moved later if needed)
@@ -239,7 +249,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>115</string>
           </argument>
           <argument>
             <kind>4</kind>
