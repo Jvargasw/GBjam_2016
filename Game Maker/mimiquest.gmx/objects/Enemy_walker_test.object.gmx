@@ -30,7 +30,7 @@ grav = 0.3;
 hsp = 0;
 vsp = 0;
 jumpspeed = 5;
-movespeed = 1;
+movespeed = 0.5;
 //direction
 dir = 1;
 </string>
@@ -99,10 +99,14 @@ dir = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>//directional facing
+if (dir = 2) image_xscale = 1;
+if (dir = 1) image_xscale = -1;
+
 if dir = 1 
 {
     motion_set(0, movespeed);  // move right 
+    
 
 }
 
