@@ -149,14 +149,14 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="MimiQuest">
+      <room>rooms\title</room>
+    </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
       <room>rooms\GMLtesting_room</room>
       <room>rooms\testing_room2</room>
       <room>rooms\testing_room</room>
-    </rooms>
-    <rooms name="MimiQuest">
-      <room>rooms\title</room>
     </rooms>
   </rooms>
   <help>

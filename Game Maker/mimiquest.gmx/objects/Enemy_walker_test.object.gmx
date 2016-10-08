@@ -99,14 +99,14 @@ dir = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//directional facing
+            <string>//Directional facing
 if (dir = 2) image_xscale = 1;
 if (dir = 1) image_xscale = -1;
 
+//Movement
 if dir = 1 
 {
-    motion_set(0, movespeed);  // move right 
-    
+    motion_set(0, movespeed);  // move right  
 
 }
 
