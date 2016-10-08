@@ -58,6 +58,8 @@
     <sprite>sprites\spr_collision</sprite>
     <sprites name="Enemies">
       <sprite>sprites\enemyMimctest</sprite>
+      <sprite>sprites\spr_slime_move</sprite>
+      <sprite>sprites\spr_slime_dmg</sprite>
     </sprites>
     <sprites name="environment stuff">
       <sprite>sprites\spr_trees1</sprite>
@@ -84,6 +86,7 @@
     <font>fonts\ft_04b03</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_collision</object>
     <object>objects\Coin</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
@@ -125,7 +128,6 @@
       <object>objects\obj_t1s_side4_1</object>
       <object>objects\obj_t1s_side4_2</object>
     </objects>
-    <object>objects\obj_collision</object>
     <objects name="Enemies">
       <object>objects\Enemy_walker_test</object>
       <object>objects\enemy_template</object>
@@ -147,14 +149,14 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="MimiQuest">
+      <room>rooms\title</room>
+    </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
       <room>rooms\GMLtesting_room</room>
       <room>rooms\testing_room2</room>
       <room>rooms\testing_room</room>
-    </rooms>
-    <rooms name="MimiQuest">
-      <room>rooms\title</room>
     </rooms>
   </rooms>
   <help>
