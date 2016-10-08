@@ -135,7 +135,7 @@ if (place_meeting(x,y+vsp,obj_collision))
 }
 y += vsp;
 
-image_speed = 0.25;
+image_speed = 0.1;
 </string>
           </argument>
         </arguments>
