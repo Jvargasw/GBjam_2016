@@ -2,6 +2,7 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
+    <Config>Configs\blargh</Config>
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
@@ -68,14 +69,26 @@
       <sprite>sprites\spr_leaf2</sprite>
     </sprites>
     <sprite>sprites\coin_placeholder</sprite>
+    <sprites name="Title Screen Stuff">
+      <sprite>sprites\spr_title_logo</sprite>
+      <sprite>sprites\spr_title_open</sprite>
+      <sprite>sprites\spr_title_eyes2</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\InitGame.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\ft_04b03</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Coin</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
       <object>objects\obj_testmimic</object>
+      <object>objects\obj_camera</object>
     </objects>
     <objects name="Tileset 1 [16x16]">
       <object>objects\obj_t1s_brick</object>
@@ -128,8 +141,15 @@
         <object>objects\part_leaf_2</object>
       </objects>
     </objects>
+    <objects name="Title Screen Stuff">
+      <object>objects\obj_title_logo</object>
+      <object>objects\obj_title_open</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="MimiQuest">
+      <room>rooms\title</room>
+    </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
       <room>rooms\GMLtesting_room</room>
