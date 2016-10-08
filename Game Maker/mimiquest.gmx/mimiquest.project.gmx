@@ -92,6 +92,7 @@
       <object>objects\obj_mimic</object>
       <object>objects\obj_testmimic</object>
       <object>objects\obj_camera</object>
+      <object>objects\obj_death</object>
     </objects>
     <objects name="Tileset 1 [16x16]">
       <object>objects\obj_t1s_brick</object>
@@ -146,8 +147,12 @@
     <objects name="Title Screen Stuff">
       <object>objects\obj_title_logo</object>
       <object>objects\obj_title_open</object>
+      <objects name="MenuButtons">
+        <object>objects\StartButton</object>
+      </objects>
     </objects>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <rooms name="MimiQuest">
       <room>rooms\title</room>

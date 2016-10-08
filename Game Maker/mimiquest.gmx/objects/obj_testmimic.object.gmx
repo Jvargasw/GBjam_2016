@@ -36,6 +36,7 @@ coins = 10;
 //immunity: if 1, then the player has been hit and is temporarily immune
 immunity = 0;
 
+
 </string>
           </argument>
         </arguments>
@@ -208,10 +209,10 @@ else
     }
     else
     {
-        //if coins = 0, player dies
-        
+      //player death 
+      instance_change(obj_death, true);
     }
-    //will need to set sprite to the flashing animation to show immunity after being hit
+    
 }
 
 //test knockback
