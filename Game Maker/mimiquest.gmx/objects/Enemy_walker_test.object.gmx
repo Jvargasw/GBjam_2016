@@ -33,6 +33,7 @@ jumpspeed = 5;
 movespeed = 0.5;
 //direction
 dir = 1;
+enemyHealth = 3;
 </string>
           </argument>
         </arguments>

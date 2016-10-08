@@ -35,6 +35,7 @@ movespeed = 3;
 coins = 10;
 //immunity: if 1, then the player has been hit and is temporarily immune
 immunity = 0;
+lastDir = 1;
 
 
 </string>
@@ -94,6 +95,7 @@ key_jump_held = keyboard_check (vk_up);
 //React to Input
 
 move = key_left + key_right;
+if (move != 0){lastDir = move;}
 hsp = move * movespeed;
 //stops the player from flying into oblivion AKA gravity
 if (vsp &lt; 10) vsp += grav;
@@ -329,9 +331,9 @@ else
     bullet = instance_create(x,y,obj_pew);
     bullet.speed = 5;
     //right
-    if (move = 1){ bullet.direction = 0;}
+    if (lastDir &gt;= 1){ bullet.direction = 0;}
     //left
-    else if (move = -1){bullet.direction = 180}
+    else if (lastDir &lt;= -1){bullet.direction = 180}
     //stand still else case (not implemented)
     coins = coins - 1;
 }
