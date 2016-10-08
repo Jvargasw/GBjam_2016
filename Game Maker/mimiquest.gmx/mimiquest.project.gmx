@@ -87,6 +87,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_collision</object>
+    <object>objects\obj_pew</object>
     <object>objects\Coin</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
@@ -152,7 +153,6 @@
       </objects>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <rooms name="MimiQuest">
       <room>rooms\title</room>
