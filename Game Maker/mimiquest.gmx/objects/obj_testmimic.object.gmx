@@ -245,6 +245,7 @@ else
     {
       //player death 
       instance_change(obj_death, true);
+      
     }
     
 }

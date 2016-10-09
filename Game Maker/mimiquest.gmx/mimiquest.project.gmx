@@ -121,12 +121,12 @@
   <objects name="objects">
     <object>objects\obj_score</object>
     <object>objects\obj_collision</object>
-    <object>objects\obj_pew</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
       <object>objects\obj_testmimic</object>
-      <object>objects\obj_camera</object>
       <object>objects\obj_death</object>
+      <object>objects\obj_camera</object>
+      <object>objects\obj_pew</object>
     </objects>
     <objects name="Tileset 1 [16x16]">
       <object>objects\obj_t1s_brick</object>
