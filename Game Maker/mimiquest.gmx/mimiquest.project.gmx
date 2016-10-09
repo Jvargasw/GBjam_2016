@@ -9,6 +9,10 @@
     <sound>sound\PlayerJump</sound>
     <sound>sound\EnemyHit</sound>
     <sound>sound\MenuButtonPressed</sound>
+    <sound>sound\nope_select</sound>
+    <sound>sound\Coin_Get</sound>
+    <sound>sound\Coin_Shoot</sound>
+    <sound>sound\PlayerHurt</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_collision</sprite>

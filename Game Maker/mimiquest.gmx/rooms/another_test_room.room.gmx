@@ -320,12 +320,12 @@
     <instance objName="Enemy_walker_test" x="176" y="96" name="inst_17ED1E74" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="part_leaf_1" x="0" y="0" name="inst_675446D0" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="part_leaf_2" x="16" y="0" name="inst_044B26D4" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_1_2" x="344" y="136" name="inst_EA976FF3" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_2_1" x="280" y="168" name="inst_257EEA98" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_1_1" x="200" y="168" name="inst_E468303D" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_2_1" x="152" y="168" name="inst_3044B459" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_1_2" x="336" y="128" name="inst_EA976FF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_2_1" x="272" y="160" name="inst_257EEA98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_1_1" x="192" y="160" name="inst_E468303D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_2_1" x="144" y="160" name="inst_3044B459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side1_2_2" x="408" y="168" name="inst_501B0C7A" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_t1s_side1_1_2" x="312" y="152" name="inst_CA9966E9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t1s_side1_1_2" x="304" y="144" name="inst_CA9966E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_corner1_1" x="392" y="152" name="inst_DE690574" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass1" x="1" y="150" name="inst_D0AFD825" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass1" x="144" y="150" name="inst_76C0D132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

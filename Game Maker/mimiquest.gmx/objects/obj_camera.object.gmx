@@ -36,6 +36,10 @@ view_hview[0] = global.gameHeight;
 display_set_gui_size(global.gameWidth, global.gameHeight);
 room_speed = 60;
 
+//Level Complete Variables
+
+lvl1_beat = false;
+lvl2_beat = false;
 </string>
           </argument>
         </arguments>

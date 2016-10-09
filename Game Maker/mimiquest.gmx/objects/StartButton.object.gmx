@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>level_2</room>
+            <room>level_select</room>
           </argument>
         </arguments>
       </action>
