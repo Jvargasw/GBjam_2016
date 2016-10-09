@@ -119,6 +119,7 @@
     <font>fonts\ft_04b03</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_score</object>
     <object>objects\obj_collision</object>
     <object>objects\obj_pew</object>
     <objects name="Player">
