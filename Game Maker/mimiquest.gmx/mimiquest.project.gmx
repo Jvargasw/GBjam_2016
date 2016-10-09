@@ -79,6 +79,21 @@
       <sprite>sprites\spr_ts2_grad18</sprite>
       <sprite>sprites\spr_ts2_grad19</sprite>
     </sprites>
+    <sprites name="Tileset 3 [16x16]">
+      <sprite>sprites\spr_ts3_brick1</sprite>
+      <sprite>sprites\spr_ts3_corner1</sprite>
+      <sprite>sprites\spr_ts3_corner2</sprite>
+      <sprite>sprites\spr_ts3_corner3</sprite>
+      <sprite>sprites\spr_ts3_corner4</sprite>
+      <sprite>sprites\spr_ts3_side1</sprite>
+      <sprite>sprites\spr_ts3_side1_1</sprite>
+      <sprite>sprites\spr_ts3_side2</sprite>
+      <sprite>sprites\spr_ts3_side2_1</sprite>
+      <sprite>sprites\spr_ts3_side3</sprite>
+      <sprite>sprites\spr_ts3_side3_1</sprite>
+      <sprite>sprites\spr_ts3_side4</sprite>
+      <sprite>sprites\spr_ts3_side4_1</sprite>
+    </sprites>
     <sprite>sprites\spr_collision</sprite>
     <sprites name="Enemies">
       <sprite>sprites\enemyMimctest</sprite>
@@ -186,6 +201,21 @@
       <object>objects\obj_ts2_grad17</object>
       <object>objects\obj_ts2_grad18</object>
       <object>objects\obj_ts2_grad19</object>
+    </objects>
+    <objects name="Tileset 3 [16x16]">
+      <object>objects\obj_ts3_brick1</object>
+      <object>objects\obj_ts3_corner1</object>
+      <object>objects\obj_ts3_corner2</object>
+      <object>objects\obj_ts3_corner3</object>
+      <object>objects\obj_ts3_corner4</object>
+      <object>objects\obj_ts3_side1</object>
+      <object>objects\obj_ts3_side1_1</object>
+      <object>objects\obj_ts3_side2</object>
+      <object>objects\obj_ts3_side2_1</object>
+      <object>objects\obj_ts3_side3</object>
+      <object>objects\obj_ts3_side3_1</object>
+      <object>objects\obj_ts3_side4</object>
+      <object>objects\obj_ts3_side4_1</object>
     </objects>
     <objects name="Enemies">
       <object>objects\Enemy_walker_test</object>
