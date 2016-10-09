@@ -87,6 +87,9 @@
     </sprites>
     <sprites name="environment stuff">
       <sprite>sprites\spr_trees1</sprite>
+      <sprite>sprites\spr_grass1</sprite>
+      <sprite>sprites\spr_grass2</sprite>
+      <sprite>sprites\spr_grass3</sprite>
       <sprite>sprites\spr_filler_yellow</sprite>
       <sprite>sprites\spr_filler_tan</sprite>
       <sprite>sprites\spr_filler_dark</sprite>
@@ -185,6 +188,9 @@
     </objects>
     <objects name="Environment stuff">
       <object>objects\obj_trees1</object>
+      <object>objects\obj_grass1</object>
+      <object>objects\obj_grass2</object>
+      <object>objects\obj_grass3</object>
       <object>objects\obj_filler_yellow</object>
       <object>objects\obj_filler_tan</object>
       <object>objects\obj_filler_dark</object>

@@ -329,7 +329,7 @@ else
             <kind>1</kind>
             <string>if(coins &gt; 0){
     bullet = instance_create(x,y,obj_pew);
-    bullet.speed = 5;
+    bullet.speed = 3.5;
     //right
     if (lastDir &gt;= 1){ bullet.direction = 0;}
     //left
