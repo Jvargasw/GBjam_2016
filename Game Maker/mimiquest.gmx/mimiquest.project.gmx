@@ -260,6 +260,8 @@
     <objects name="Items">
       <object>objects\Coin</object>
     </objects>
+    <object>objects\obj_button1</object>
+    <object>objects\obj_button2</object>
   </objects>
   <rooms name="rooms">
     <rooms name="MimiQuest">
