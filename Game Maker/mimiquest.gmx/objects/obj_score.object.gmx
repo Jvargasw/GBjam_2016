@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_testmimic.coins = 10 ;
+            <string>coins = 10 ;
 </string>
           </argument>
         </arguments>
@@ -103,7 +103,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color (c_black);
-draw_text (10, 60, obj_testmimic.coins);
+draw_text (10, 60, coins);
 </string>
           </argument>
         </arguments>
