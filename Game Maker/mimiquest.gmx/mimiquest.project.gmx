@@ -144,6 +144,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_score</object>
+    <object>objects\obj_stockpile</object>
     <object>objects\obj_collision</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
@@ -269,6 +270,7 @@
     <object>objects\obj_buttonLvl2</object>
     <objects name="Win_Flags">
       <object>objects\obj_lvl1Win</object>
+      <object>objects\obj_lvl2Win</object>
     </objects>
   </objects>
   <rooms name="rooms">
