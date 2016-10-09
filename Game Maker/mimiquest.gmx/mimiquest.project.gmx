@@ -8,7 +8,7 @@
   <sounds name="sound">
     <sound>sound\PlayerJump</sound>
     <sound>sound\EnemyHit</sound>
-    <sound>sound\MenuButtonHover</sound>
+    <sound>sound\MenuButtonPressed</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="mimic">
