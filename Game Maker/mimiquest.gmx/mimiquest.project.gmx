@@ -259,9 +259,10 @@
     </objects>
     <objects name="Items">
       <object>objects\Coin</object>
+      <object>objects\coin_gravity</object>
     </objects>
-    <object>objects\obj_button1</object>
-    <object>objects\obj_button2</object>
+    <object>objects\obj_buttonLvl1</object>
+    <object>objects\obj_buttonLvl2</object>
   </objects>
   <rooms name="rooms">
     <rooms name="MimiQuest">
