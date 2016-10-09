@@ -87,6 +87,7 @@
     </sprites>
     <sprites name="environment stuff">
       <sprite>sprites\spr_trees1</sprite>
+      <sprite>sprites\spr_trees2</sprite>
       <sprite>sprites\spr_grass1</sprite>
       <sprite>sprites\spr_grass2</sprite>
       <sprite>sprites\spr_grass3</sprite>
@@ -190,6 +191,7 @@
     </objects>
     <objects name="Environment stuff">
       <object>objects\obj_trees1</object>
+      <object>objects\obj_trees2</object>
       <object>objects\obj_grass1</object>
       <object>objects\obj_grass2</object>
       <object>objects\obj_grass3</object>
