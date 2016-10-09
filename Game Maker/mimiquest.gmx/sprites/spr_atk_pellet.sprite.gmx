@@ -8,9 +8,9 @@
   <sepmasks>0</sepmasks>
   <bboxmode>1</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>3</bbox_right>
+  <bbox_right>5</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>3</bbox_bottom>
+  <bbox_bottom>5</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,8 +18,8 @@
     <TextureGroup1>0</TextureGroup1>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>4</width>
-  <height>4</height>
+  <width>6</width>
+  <height>6</height>
   <frames>
     <frame index="0">images\spr_atk_pellet_0.png</frame>
   </frames>

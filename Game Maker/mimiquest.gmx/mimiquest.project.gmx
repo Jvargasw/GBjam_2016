@@ -85,6 +85,10 @@
       <sprite>sprites\spr_slime_move</sprite>
       <sprite>sprites\spr_slime_dmg</sprite>
     </sprites>
+    <sprites name="items">
+      <sprite>sprites\spr_coin</sprite>
+      <sprite>sprites\spr_coin_extra</sprite>
+    </sprites>
     <sprites name="environment stuff">
       <sprite>sprites\spr_trees1</sprite>
       <sprite>sprites\spr_trees2</sprite>
@@ -100,7 +104,6 @@
       <sprite>sprites\spr_leaf1</sprite>
       <sprite>sprites\spr_leaf2</sprite>
     </sprites>
-    <sprite>sprites\coin_placeholder</sprite>
     <sprites name="Title Screen Stuff">
       <sprite>sprites\spr_title_logo</sprite>
       <sprite>sprites\spr_title_open</sprite>
@@ -118,7 +121,6 @@
   <objects name="objects">
     <object>objects\obj_collision</object>
     <object>objects\obj_pew</object>
-    <object>objects\Coin</object>
     <objects name="Player">
       <object>objects\obj_mimic</object>
       <object>objects\obj_testmimic</object>
@@ -212,6 +214,9 @@
       <objects name="MenuButtons">
         <object>objects\StartButton</object>
       </objects>
+    </objects>
+    <objects name="Items">
+      <object>objects\Coin</object>
     </objects>
   </objects>
   <rooms name="rooms">
