@@ -214,6 +214,7 @@
       <object>objects\obj_title_open</object>
       <objects name="MenuButtons">
         <object>objects\StartButton</object>
+        <object>objects\ExitButton</object>
       </objects>
     </objects>
     <objects name="Items">
@@ -223,6 +224,7 @@
   <rooms name="rooms">
     <rooms name="MimiQuest">
       <room>rooms\title</room>
+      <room>rooms\level_select</room>
     </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
