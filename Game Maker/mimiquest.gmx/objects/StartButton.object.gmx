@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>another_test_room</room>
+            <room>level_1</room>
           </argument>
         </arguments>
       </action>

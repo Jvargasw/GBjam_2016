@@ -252,10 +252,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level_1</room>
     <rooms name="MimiQuest">
       <room>rooms\title</room>
       <room>rooms\level_select</room>
+      <room>rooms\level_1</room>
     </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
