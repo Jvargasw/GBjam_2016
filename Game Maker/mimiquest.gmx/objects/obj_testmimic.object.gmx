@@ -269,7 +269,7 @@ obj_score.coins = obj_score.coins +1;
 {
     if(obj_score.coins &gt; 1)
     {
-        obj_score.coins = round(coins/2);
+        obj_score.coins = round(obj_score.coins/2);
         //can add coin splash. Can also change the 5 to a variable if wanted
         immunity = 1;
     }
