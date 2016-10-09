@@ -11,6 +11,7 @@
     <sound>sound\MenuButtonPressed</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_collision</sprite>
     <sprites name="mimic">
       <sprite>sprites\spr_mimic</sprite>
       <sprite>sprites\spr_mimic_move</sprite>
@@ -94,7 +95,6 @@
       <sprite>sprites\spr_ts3_side4</sprite>
       <sprite>sprites\spr_ts3_side4_1</sprite>
     </sprites>
-    <sprite>sprites\spr_collision</sprite>
     <sprites name="Enemies">
       <sprite>sprites\enemyMimctest</sprite>
       <sprite>sprites\spr_slime_move</sprite>
@@ -252,6 +252,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level_1</room>
     <rooms name="MimiQuest">
       <room>rooms\title</room>
       <room>rooms\level_select</room>
