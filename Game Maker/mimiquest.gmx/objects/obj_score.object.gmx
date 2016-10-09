@@ -73,7 +73,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color (c_black);
-draw_text (view_xview[view_current]+10,view_yview[view_current]+10,  coins);
+draw_text (view_xview[view_current]+2,view_yview[view_current]+5, "Coins: " + string(coins));
 </string>
           </argument>
         </arguments>
