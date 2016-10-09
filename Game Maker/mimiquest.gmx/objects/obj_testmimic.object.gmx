@@ -86,28 +86,32 @@ lastDir = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Player Input
+            <string>//===Player Input
 key_right = keyboard_check (vk_right);
 key_left = -keyboard_check (vk_left);
 key_jump = keyboard_check_pressed (vk_up);
 key_jump_held = keyboard_check (vk_up);
+key_atk = keyboard_check_pressed (vk_space);
 
-//React to Input
+//===React to Input
 //moving
 move = key_left + key_right;
 if (move != 0){lastDir = move;}
 hsp = move * movespeed;
+
 //stops the player from flying into oblivion AKA gravity
 if (vsp &lt; 10) vsp += grav;
+
 //jumping yo
 if (place_meeting(x,y+1,obj_collision)) 
     {
     vsp = key_jump * -jumpspeed
     }
+    
 //variable jumping    
 if (vsp &lt; 0) &amp;&amp; (!key_jump_held) vsp = max(vsp,-jumpspeed/4)
 
-//Attacking
+//===Attacking
 if (keyboard_check_pressed (vk_space)){
     if(coins &gt; 0){
      bullet = instance_create(x,y,obj_pew);
@@ -120,7 +124,8 @@ if (keyboard_check_pressed (vk_space)){
         coins = coins - 1;
     }
 } 
-//Horizontal Collision so you don't fly through the walls
+
+//===Horizontal Collision so you don't fly through the walls
 if (place_meeting(x+hsp,y,obj_collision))
 {
     while(!place_meeting(x+sign(hsp),y,obj_collision))
@@ -133,8 +138,7 @@ if (place_meeting(x+hsp,y,obj_collision))
 x += hsp;
 
 
-
-//Vertical Collision so you don't fly through the other walls
+//===Vertical Collision so you don't fly through the other walls
 if (place_meeting(x,y+vsp,obj_collision))
 {
     while(!place_meeting(x,y+sign(vsp),obj_collision))
@@ -147,22 +151,31 @@ if (place_meeting(x,y+vsp,obj_collision))
 y += vsp;
 
 
-
-
-
-// Control Sprites 
+//===Control Sprites 
 //changes direction
 if (move!= 0) image_xscale = move;
+
 //check for ground. if you move, you move. if not, you idle
 if (place_meeting(x,y+1,obj_collision))
     {
    
     if (immunity = 0){
      //moving animation
-        if (move!= 0) sprite_index = spr_mimic_move; 
+        if (move!= 0){
+         sprite_index = spr_mimic_move; 
+         }
+         
+      //attacking animation
+         else if (key_atk = true) {
+        sprite_index = spr_mimic_atk;       
+         }
+         
         else sprite_index = spr_mimic;
         image_speed = 0.25;
-    }
+        
+
+        }
+        
     //FOR DAMAGED
     else { 
      if (move!= 0) sprite_index = spr_mimic_dmg_w; 
@@ -178,7 +191,8 @@ else
     //jumping animation
         if (vsp &lt; 0) sprite_index = spr_mimic_jump; 
         else sprite_index = spr_mimic;
-                    }
+        } 
+        
     //FOR DAMAGED
     else{  
         if (vsp &lt; 0) sprite_index = spr_mimic_dmg;
@@ -186,6 +200,9 @@ else
         }
 }  
 
+
+
+    
 
 //Drawing the score (can be moved later if needed)
 //draw_text(0, 0, "Coins: " + string(coins));
