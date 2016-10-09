@@ -21,6 +21,6 @@
   <width>16</width>
   <height>16</height>
   <frames>
-    <frame index="0">images\spr_t1s_corner4_1_0.png</frame>
+    <frame index="0">images\spr_brick2_1_0.png</frame>
   </frames>
 </sprite>

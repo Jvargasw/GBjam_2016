@@ -30,6 +30,9 @@
       <sprite>sprites\spr_t1s_corner1</sprite>
       <sprite>sprites\spr_t1s_corner1_1</sprite>
       <sprite>sprites\spr_t1s_corner2</sprite>
+      <sprite>sprites\spr_ts1_corner2_2</sprite>
+      <sprite>sprites\spr_ts1_brick2</sprite>
+      <sprite>sprites\spr_brick2_1</sprite>
       <sprite>sprites\spr_t1s_corner2_1</sprite>
       <sprite>sprites\spr_t1s_corner3</sprite>
       <sprite>sprites\spr_t1s_corner3_1</sprite>
@@ -44,6 +47,7 @@
       <sprite>sprites\spr_t1s_inv3</sprite>
       <sprite>sprites\spr_t1s_inv4</sprite>
       <sprite>sprites\spr_t1s_side1_1</sprite>
+      <sprite>sprites\spr_ts1_side1_2_1</sprite>
       <sprite>sprites\spr_t1s_side1_1_1</sprite>
       <sprite>sprites\spr_t1s_side1_1_2</sprite>
       <sprite>sprites\spr_t1s_side1_2</sprite>
@@ -106,6 +110,7 @@
     </sprites>
     <sprites name="environment stuff">
       <sprite>sprites\spr_trees1</sprite>
+      <sprite>sprites\spr_tree1_1</sprite>
       <sprite>sprites\spr_trees2</sprite>
       <sprite>sprites\spr_grass1</sprite>
       <sprite>sprites\spr_grass2</sprite>
@@ -153,6 +158,9 @@
       <object>objects\obj_t1s_corner1_1</object>
       <object>objects\obj_t1s_corner2</object>
       <object>objects\obj_t1s_corner2_1</object>
+      <object>objects\obj_ts2_corner2_2</object>
+      <object>objects\obj_ts1_brick2</object>
+      <object>objects\obj_ts1_brick2_1</object>
       <object>objects\obj_t1s_corner3</object>
       <object>objects\obj_t1s_corner3_1</object>
       <object>objects\obj_t1s_corner4</object>
@@ -169,6 +177,7 @@
       <object>objects\obj_t1s_side1_1_1</object>
       <object>objects\obj_t1s_side1_1_2</object>
       <object>objects\obj_t1s_side1_2</object>
+      <object>objects\obj_ts1_side_1_2_1</object>
       <object>objects\obj_t1s_side1_2_1</object>
       <object>objects\obj_t1s_side1_2_2</object>
       <object>objects\obj_t1s_side2_2</object>
@@ -224,6 +233,7 @@
     </objects>
     <objects name="Environment stuff">
       <object>objects\obj_trees1</object>
+      <object>objects\obj_trees1_1</object>
       <object>objects\obj_trees2</object>
       <object>objects\obj_grass1</object>
       <object>objects\obj_grass2</object>
@@ -255,7 +265,7 @@
     <rooms name="MimiQuest">
       <room>rooms\title</room>
       <room>rooms\level_select</room>
-      <room>rooms\level_1</room>
+      <room>rooms\level_2</room>
     </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
