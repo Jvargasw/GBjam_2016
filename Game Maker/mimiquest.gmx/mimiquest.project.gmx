@@ -267,6 +267,9 @@
     </objects>
     <object>objects\obj_buttonLvl1</object>
     <object>objects\obj_buttonLvl2</object>
+    <objects name="Win_Flags">
+      <object>objects\obj_lvl1Win</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="MimiQuest">
