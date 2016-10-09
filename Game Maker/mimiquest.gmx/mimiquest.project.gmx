@@ -55,6 +55,30 @@
       <sprite>sprites\spr_t1s_side4_1</sprite>
       <sprite>sprites\spr_t1s_side4_2</sprite>
     </sprites>
+    <sprites name="Tileset 2 [16x16]">
+      <sprite>sprites\spr_ts2_backing1</sprite>
+      <sprite>sprites\spr_ts2_backing2</sprite>
+      <sprite>sprites\spr_ts2_backing3</sprite>
+      <sprite>sprites\spr_ts2_grad1</sprite>
+      <sprite>sprites\spr_ts2_grad2</sprite>
+      <sprite>sprites\spr_ts2_grad3</sprite>
+      <sprite>sprites\spr_ts2_grad4</sprite>
+      <sprite>sprites\spr_ts2_grad5</sprite>
+      <sprite>sprites\spr_ts2_grad6</sprite>
+      <sprite>sprites\spr_ts2_grad7</sprite>
+      <sprite>sprites\spr_ts2_grad8</sprite>
+      <sprite>sprites\spr_ts2_grad9</sprite>
+      <sprite>sprites\spr_ts2_grad10</sprite>
+      <sprite>sprites\spr_ts2_grad11</sprite>
+      <sprite>sprites\spr_ts2_grad12</sprite>
+      <sprite>sprites\spr_ts2_grad13</sprite>
+      <sprite>sprites\spr_ts2_grad14</sprite>
+      <sprite>sprites\spr_ts2_grad15</sprite>
+      <sprite>sprites\spr_ts2_grad16</sprite>
+      <sprite>sprites\spr_ts2_grad17</sprite>
+      <sprite>sprites\spr_ts2_grad18</sprite>
+      <sprite>sprites\spr_ts2_grad19</sprite>
+    </sprites>
     <sprite>sprites\spr_collision</sprite>
     <sprites name="Enemies">
       <sprite>sprites\enemyMimctest</sprite>
@@ -129,6 +153,30 @@
       <object>objects\obj_t1s_side3_2</object>
       <object>objects\obj_t1s_side4_1</object>
       <object>objects\obj_t1s_side4_2</object>
+    </objects>
+    <objects name="Tileset 2 [16x16]">
+      <object>objects\obj_ts2_backing1</object>
+      <object>objects\obj_ts2_backing2</object>
+      <object>objects\obj_ts2_backing3</object>
+      <object>objects\obj_ts2_grad1</object>
+      <object>objects\obj_ts2_grad2</object>
+      <object>objects\obj_ts2_grad3</object>
+      <object>objects\obj_ts2_grad4</object>
+      <object>objects\obj_ts2_grad5</object>
+      <object>objects\obj_ts2_grad6</object>
+      <object>objects\obj_ts2_grad7</object>
+      <object>objects\obj_ts2_grad8</object>
+      <object>objects\obj_ts2_grad9</object>
+      <object>objects\obj_ts2_grad10</object>
+      <object>objects\obj_ts2_grad11</object>
+      <object>objects\obj_ts2_grad12</object>
+      <object>objects\obj_ts2_grad13</object>
+      <object>objects\obj_ts2_grad14</object>
+      <object>objects\obj_ts2_grad15</object>
+      <object>objects\obj_ts2_grad16</object>
+      <object>objects\obj_ts2_grad17</object>
+      <object>objects\obj_ts2_grad18</object>
+      <object>objects\obj_ts2_grad19</object>
     </objects>
     <objects name="Enemies">
       <object>objects\Enemy_walker_test</object>
