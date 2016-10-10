@@ -91,7 +91,7 @@ else if (global.isPaused == true &amp;&amp; keyboard_check_pressed(vk_escape))
     draw_set_font (ft_04b03);
     //Set the color
     draw_set_colour (make_color_rgb (30, 17, 16));
-    //Draw the scoreboard in the top left
+    //Draw the pause screen
     draw_text (view_xview[view_current]+64,view_yview[view_current]+68, "Paused");
 
 }

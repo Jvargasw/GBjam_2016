@@ -140,6 +140,10 @@
     <sprite>sprites\spr_lv1_tile</sprite>
     <sprite>sprites\spr_lv2_tile</sprite>
     <sprite>sprites\spr_LOCKED_tile</sprite>
+    <sprite>sprites\spr_flags1</sprite>
+    <sprite>sprites\spr_flags2</sprite>
+    <sprite>sprites\spr_b_start</sprite>
+    <sprite>sprites\spr_b_end</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\WinBackground</background>
@@ -264,6 +268,8 @@
       <object>objects\obj_filler_tan</object>
       <object>objects\obj_filler_dark</object>
       <object>objects\obj_filler_light</object>
+      <object>objects\obj_flag1</object>
+      <object>objects\obj_flags2</object>
       <objects name="Particle Effects">
         <object>objects\part_leaf_1</object>
         <object>objects\part_leaf_2</object>
