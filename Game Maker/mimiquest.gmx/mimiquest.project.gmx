@@ -23,6 +23,7 @@
       <sprite>sprites\spr_mimic_atk</sprite>
       <sprite>sprites\spr_mimic_dmg</sprite>
       <sprite>sprites\spr_mimic_dmg_w</sprite>
+      <sprite>sprites\spr_mimic_ded</sprite>
       <sprite>sprites\spr_atk_pellet</sprite>
     </sprites>
     <sprites name="Tileset 1 [16x16]">
@@ -136,6 +137,9 @@
       <sprite>sprites\spr_title_open</sprite>
       <sprite>sprites\spr_title_eyes2</sprite>
     </sprites>
+    <sprite>sprites\spr_lv1_tile</sprite>
+    <sprite>sprites\spr_lv2_tile</sprite>
+    <sprite>sprites\spr_LOCKED_tile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\WinBackground</background>
