@@ -143,6 +143,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\WinBackground</background>
+    <background>background\lvlSelect</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -292,6 +293,7 @@
     <rooms name="MimiQuest">
       <room>rooms\title</room>
       <room>rooms\level_select</room>
+      <room>rooms\level_1</room>
       <room>rooms\level_2</room>
       <room>rooms\WinRoom</room>
     </rooms>
