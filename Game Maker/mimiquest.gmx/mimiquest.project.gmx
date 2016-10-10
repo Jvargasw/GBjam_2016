@@ -88,6 +88,10 @@
       <sprite>sprites\spr_ts2_grad17</sprite>
       <sprite>sprites\spr_ts2_grad18</sprite>
       <sprite>sprites\spr_ts2_grad19</sprite>
+      <sprite>sprites\spr_ts2_grad20</sprite>
+      <sprite>sprites\spr_ts2_grad21</sprite>
+      <sprite>sprites\sprite115</sprite>
+      <sprite>sprites\sprite116</sprite>
     </sprites>
     <sprites name="Tileset 3 [16x16]">
       <sprite>sprites\spr_ts3_brick1</sprite>
@@ -231,6 +235,10 @@
       <object>objects\obj_ts2_grad17</object>
       <object>objects\obj_ts2_grad18</object>
       <object>objects\obj_ts2_grad19</object>
+      <object>objects\object115</object>
+      <object>objects\object116</object>
+      <object>objects\object117</object>
+      <object>objects\object118</object>
     </objects>
     <objects name="Tileset 3 [16x16]">
       <object>objects\obj_ts3_brick1</object>
