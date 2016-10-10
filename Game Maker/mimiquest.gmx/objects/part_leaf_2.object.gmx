@@ -29,7 +29,7 @@
 leaf = part_system_create();
 part_system_depth(leaf,5);
 
-//Create a snowflake particle
+//Create a leaf
 leaves = part_type_create();
 part_type_sprite(leaves, spr_leaf2, 0, 0, 0);
 part_type_orientation(leaves,0,0,0,0,1);
@@ -64,10 +64,26 @@ part_emitter_stream(leaf,leaf_emitter,leaves,-20);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_system_destroy(snow);
+            <string>part_system_destroy(leaf);
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>
