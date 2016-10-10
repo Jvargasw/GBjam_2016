@@ -463,7 +463,6 @@
     <instance objName="obj_t1s_side2_1" x="608" y="208" name="inst_05C0E1F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side2_1" x="608" y="176" name="inst_A34BAA75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side2_1" x="608" y="208" name="inst_1A70F696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_F1C51035" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_t1s_side2_2" x="608" y="96" name="inst_D90186C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side2_1" x="608" y="112" name="inst_9E0E3FB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t1s_side2_1" x="608" y="48" name="inst_C860714E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

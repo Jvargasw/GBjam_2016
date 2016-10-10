@@ -14,7 +14,7 @@
     <TextureGroup1>0</TextureGroup1>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>0</width>
-  <height>0</height>
+  <width>160</width>
+  <height>144</height>
   <data>images\lvlSelect.png</data>
 </background>
