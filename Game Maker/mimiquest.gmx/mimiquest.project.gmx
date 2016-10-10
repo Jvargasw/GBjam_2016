@@ -148,6 +148,7 @@
     <font>fonts\ft_04b03</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_paused</object>
     <object>objects\obj_score</object>
     <object>objects\obj_winMessage</object>
     <object>objects\obj_stockpile</object>
