@@ -137,7 +137,9 @@
       <sprite>sprites\spr_title_eyes2</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\WinBackground</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\InitGame.gml</script>
@@ -147,6 +149,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_score</object>
+    <object>objects\obj_winMessage</object>
     <object>objects\obj_stockpile</object>
     <object>objects\obj_collision</object>
     <objects name="Player">
@@ -284,6 +287,7 @@
       <room>rooms\title</room>
       <room>rooms\level_select</room>
       <room>rooms\level_2</room>
+      <room>rooms\WinRoom</room>
     </rooms>
     <rooms name="Testing Rooms">
       <room>rooms\another_test_room</room>
