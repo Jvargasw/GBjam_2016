@@ -107,6 +107,7 @@
       <sprite>sprites\enemyMimctest</sprite>
       <sprite>sprites\spr_slime_move</sprite>
       <sprite>sprites\spr_slime_dmg</sprite>
+      <sprite>sprites\spr_spikes</sprite>
     </sprites>
     <sprites name="items">
       <sprite>sprites\spr_coin</sprite>
@@ -119,6 +120,8 @@
       <sprite>sprites\spr_grass1</sprite>
       <sprite>sprites\spr_grass2</sprite>
       <sprite>sprites\spr_grass3</sprite>
+      <sprite>sprites\spr_grass4</sprite>
+      <sprite>sprites\spr_grass5</sprite>
       <sprite>sprites\spr_mush1</sprite>
       <sprite>sprites\spr_mush2</sprite>
       <sprite>sprites\spr_filler_yellow</sprite>
@@ -235,6 +238,7 @@
       <object>objects\Enemy_walker_test</object>
       <object>objects\enemy_template</object>
       <object>objects\enemy_death</object>
+      <object>objects\obj_spikes</object>
     </objects>
     <objects name="Environment stuff">
       <object>objects\obj_trees1</object>
@@ -243,6 +247,8 @@
       <object>objects\obj_grass1</object>
       <object>objects\obj_grass2</object>
       <object>objects\obj_grass3</object>
+      <object>objects\obj_grass4</object>
+      <object>objects\obj_grass5</object>
       <object>objects\obj_mush1</object>
       <object>objects\obj_mush2</object>
       <object>objects\obj_filler_yellow</object>

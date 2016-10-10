@@ -50,12 +50,11 @@
             <kind>1</kind>
             <string>//Set the font
 draw_set_font (ft_04b03);
-
-//Font color. This one is our darkest color in the palette
-make_color_rgb (30, 17, 16);
-
+//Set the color
+draw_set_colour (make_color_rgb (30, 17, 16));
 //Draw the scoreboard in the top left
 draw_text (view_xview[view_current]+2,view_yview[view_current]+5, "Coins: " + string(coins));
+
 </string>
           </argument>
         </arguments>
