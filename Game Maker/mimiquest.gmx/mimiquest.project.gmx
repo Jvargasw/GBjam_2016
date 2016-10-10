@@ -277,6 +277,7 @@
     </objects>
     <object>objects\obj_buttonLvl1</object>
     <object>objects\obj_buttonLvl2</object>
+    <object>objects\obj_restartGame</object>
     <objects name="Win_Flags">
       <object>objects\obj_lvl1Win</object>
       <object>objects\obj_lvl2Win</object>

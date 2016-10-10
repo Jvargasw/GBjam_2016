@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_winMessage" x="48" y="64" name="inst_99F4E399" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_restartGame" x="64" y="112" name="inst_31DE3FCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
